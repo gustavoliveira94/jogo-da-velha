@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 10%;
+    background-color: brown;
+    text-align: center;
+    color: #000000;
+    font-family: lato;
+}
+
+button {
+    cursor: pointer;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #000000;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    font-family: lato;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    justify-content: center;
+}
+
+.content input {
+    background-color: brown;
+    color: #000000;
+    font-size: 40px;
+}
