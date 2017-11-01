@@ -4,11 +4,13 @@
 }
 
 body {
-    padding: 10%;
+    padding-top: 100px;
     background-color: brown;
     text-align: center;
     color: #000000;
     font-family: lato;
+    display: grid;
+    justify-content: center;
 }
 
 button {
