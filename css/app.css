@@ -4,7 +4,7 @@
 }
 
 body {
-    padding-top: 100px;
+    margin: 100px auto 50px auto;
     background-color: brown;
     text-align: center;
     color: #000000;
@@ -13,16 +13,15 @@ body {
     justify-content: center;
 }
 
-button {
-    cursor: pointer;
-}
-
 hr {
+    width: 300px;
     border: 0;
     border-top: 1px solid #000000;
+    margin: 0 auto 0 auto;
 }
 
 button {
+    cursor: pointer;
     width: 150px;
     height: 50px;
     font-family: lato;
@@ -31,13 +30,14 @@ button {
 }
 
 .content {
-    margin-top: 100px;
-    margin-bottom: 50px;
+    width: 308px;
+    height: 308px;
     text-align: center;
     display: grid;
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 100px 100px 100px;
     justify-content: center;
+    margin: 100px auto 50px auto;
 }
 
 .content input {
@@ -45,5 +45,5 @@ button {
     color: #000000;
     font-size: 40px;
     width: 100px;
-    height: 100px;
+    height: 100px;   
 }
