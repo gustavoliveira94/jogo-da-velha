@@ -13,8 +13,10 @@ header {
     text-align: center;
     color: #000000;
     font-family: lato;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 hr {
