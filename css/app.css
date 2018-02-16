@@ -4,6 +4,10 @@
 }
 
 body {
+    background-color: brown;    
+}
+
+header {
     margin: 100px 10% 50px 10%;
     background-color: brown;
     text-align: center;
@@ -37,7 +41,7 @@ button {
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 100px 100px 100px;
     justify-content: center;
-    margin: 100px auto 50px auto;
+    margin: 50px 0 50px 0;
 }
 
 .content input {
