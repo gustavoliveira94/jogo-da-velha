@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    margin: 100px 10% 50px 10%;
+    padding: 100px 10% 50px 10%;
     background-color: brown;
     text-align: center;
     -ms-text-align-last: center;
