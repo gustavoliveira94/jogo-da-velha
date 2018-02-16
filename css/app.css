@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    padding: 0 10% 0 10%;
+    padding: 0 10% 0 10% !important;
     background-color: brown;
     text-align: center;
     -ms-text-align-last: center;
@@ -26,7 +26,7 @@ header {
 
 h1 {
     text-align: center;
-    margin: 80px auto auto auto;
+    margin: 80px auto auto auto !important;
 }
 
 hr {
@@ -62,7 +62,7 @@ button {
 .content {
     width: 308px;
     height: 308px;
-    margin: 50px auto 50px auto;
+    margin: 50px auto 50px auto !important;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -73,7 +73,6 @@ button {
     background-color: brown;
     color: #000000;
     font-size: 40px;
-    align-self: center;
     width: 100px;
     height: 100px;   
     margin: auto;
@@ -81,4 +80,5 @@ button {
 
 header a {
     margin-bottom: 50px;
+    align-self: center;
 }
