@@ -81,5 +81,11 @@ button {
 header a {
     margin-bottom: 50px;
     display: flex;
-    align-self: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000;
+    width: 200px;
+    height: 50px;
 }
