@@ -78,7 +78,7 @@ button {
     margin: auto;
 }
 
-header a {
+a {
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
