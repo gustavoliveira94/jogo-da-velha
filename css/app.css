@@ -24,11 +24,16 @@ header {
     -ms-flex-item-align: center;
 }
 
+h1 {
+    text-align: center;
+    margin: auto;
+}
+
 hr {
     width: 300px;
     border: 0;
     border-top: 1px solid #000000;
-    margin: 0 auto 0 auto;
+    margin: auto;
 }
 
 button {
@@ -57,7 +62,7 @@ button {
 .content {
     width: 308px;
     height: 308px;
-    margin: 50px 0 50px 0;
+    margin: 50px auto 50px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -70,4 +75,5 @@ button {
     font-size: 40px;
     width: 100px;
     height: 100px;   
+    margin: auto;
 }
