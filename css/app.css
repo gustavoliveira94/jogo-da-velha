@@ -14,9 +14,13 @@ header {
     color: #000000;
     font-family: lato;
     display: flex;
+    display: -webkit-flex;
+    -ms-flex-direction: column;
     flex-direction: column;
     justify-content: center;
+    -ms-flex-align: center;
     align-items: center;
+    -ms-flex-item-align: center;
 }
 
 hr {
@@ -40,8 +44,11 @@ button {
     height: 308px;
     text-align: center;
     display: grid;
+    display: -ms-grid;
     grid-template-columns: 100px 100px 100px;
+    -ms-grid-columns: 100px 100px 100px;
     grid-template-rows: 100px 100px 100px;
+    -ms-grid-rows: 100px 100px 100px;
     justify-content: center;
     margin: 50px 0 50px 0;
 }
